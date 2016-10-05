@@ -16,12 +16,12 @@ $ npm i --save motivation
 
 var motivation = require("../lib");
 var m = motivation.get();
-console.log(m); 
+console.log(m);
 
 /*
-    yields => { 
+    yields => {
         text: 'Thinking should become your capital asset, no matter whatever ups and downs you come across in your life.',
-        author: 'Dr. APJ Kalam ' 
+        author: 'Dr. APJ Kalam '
     }
 */
 
@@ -37,5 +37,5 @@ MIT © [s-a](https://github.com/s-a)
 [travis-url]: https://travis-ci.org/s-a/motivation
 [daviddm-image]: https://david-dm.org/s-a/motivation.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/s-a/motivation
-[coveralls-image]: https://coveralls.io/repos/s-a/motivation/badge.svg
+[coveralls-image]: https://coveralls.io/repos/github/s-a/motivation/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/r/s-a/motivation
