@@ -1,6 +1,6 @@
 {
   "name": "motivation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Famous Quotes for Motivation",
   "homepage": "https://github.com/s-a/motivation",
   "author": {
@@ -37,7 +37,7 @@
   },
   "repository": "https://github.com/s-a/motivation.git",
   "bin": {
-    "marvin": "lib/cli.js" 
+    "marvin": "lib/cli.js"
   },
   "scripts": {
     "prepublish": "gulp prepublish",
