@@ -25,7 +25,18 @@ console.log(m);
     }
 */
 
+
 ```
+## Global installation
+```sh
+$ npm i -g motivation
+```
+## Global usage
+```sh
+$ marvin;
+```  
+![Demo][demo-image]
+
 ## License
 
 MIT © [s-a](https://github.com/s-a)
@@ -39,3 +50,4 @@ MIT © [s-a](https://github.com/s-a)
 [daviddm-url]: https://david-dm.org/s-a/motivation
 [coveralls-image]: https://coveralls.io/repos/github/s-a/motivation/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/r/s-a/motivation
+[demo-image]: /demo.png
