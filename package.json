@@ -1,0 +1,45 @@
+{
+  "name": "motivation",
+  "version": "1.0.0",
+  "description": "Famous Quotes for Motivation",
+  "homepage": "https://github.com/s-a/motivation",
+  "author": {
+    "name": "s-a",
+    "email": "stephan.ahlf@gmail.com",
+    "url": "https://github.com/s-a"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "motivation"
+  ],
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.14.0",
+    "gulp": "^3.9.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "should": "^11.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "https://github.com/s-a/motivation.git",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp",
+    "bump": "npm test && npm version patch && git push && git push --tags && npm publish"
+  },
+  "license": "MIT"
+}
