@@ -36,6 +36,9 @@
     }
   },
   "repository": "https://github.com/s-a/motivation.git",
+  "bin": {
+    "marvin": "lib/cli.js" 
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp",
