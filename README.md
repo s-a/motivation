@@ -15,7 +15,7 @@ $ npm i --save motivation
 "use strict";
 
 var motivation = require("../lib");
-var m = motivation.get();
+var m = motivation.get(); // returns a random quote
 console.log(m);
 
 /*
