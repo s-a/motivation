@@ -1,7 +1,7 @@
 # motivation [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Famous Quotes for Motivation
 
-I use this lib to output cool mativations to console in my console apps.
+I use this lib to output cool motivations to console in my console apps.
 
 ## Installation
 
